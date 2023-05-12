@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Email from './email'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import logo from '../images/logo.svg'
+import logo from '../images/Logo.svg'
 
 export default function Footer(){
 
