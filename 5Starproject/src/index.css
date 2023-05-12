@@ -395,6 +395,7 @@ nav{
   margin: 1rem 0.5rem;
   opacity: 50%;
   color:#437C90;
+  display: none;
 }
 
 .arrows:hover{
@@ -656,10 +657,12 @@ tbody tr:not(:last-child){
     flex-direction: column;
     margin-bottom: 3rem;
   }
+  
   .gradient-borders{
     width: 100%;
     padding: 0;
     height: 50vh;
+    margin-bottom: 20vh;
   }
   .left-border,.right-border{
     padding: 0;
@@ -707,7 +710,7 @@ tbody tr:not(:last-child){
     padding: 1rem;
   }
   .arrows{
-    display: hidden;
+    display: inline-flex;
   }
   #questions{
     display: flex;
