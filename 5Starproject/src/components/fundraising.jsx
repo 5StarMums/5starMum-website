@@ -1,5 +1,6 @@
 import React from 'react'
 import 'aos/dist/aos.css'
+import fundraising from '../images/fundraising.svg'
 
 export default function Fundraising(){
 
@@ -13,7 +14,7 @@ export default function Fundraising(){
                 <button className='btn btn-primary'>Donate</button>
             </div>
             <div className='right-content image'>
-                <img src='images/fundraising.svg' />
+                <img src={fundraising} />
             </div>
         </section>
     )

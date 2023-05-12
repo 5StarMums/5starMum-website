@@ -2,12 +2,14 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import 'aos/dist/aos.css'
-
+import Mya2 from '../images/Mya2.svg'
+import dashboard1 from '../images/Dashboard1.svg'
+import dashboard2 from '../images/Dashboard2.svg'
 export default function Services(){
     return(
         <div id='service-section'>
             <div className="left-border services" data-aos='fade-left'>
-                <div className="gradient-borders">  <img src="images/Mya2.svg" /> </div>
+                <div className="gradient-borders">  <img src={Mya2} /> </div>
                 <div className="side-contents">
                     <p className="service-title">Introducing <span className="orange">Mya</span></p>
                     <h1 className="bold-title"><span className="blue">Smart </span>Childcare at your <span className="blue">fingertips</span></h1>
@@ -40,13 +42,13 @@ export default function Services(){
                     <button className="btn btn-primary">Talk to Mya</button>
                 </div>
                 <div className="gradient-borders">
-                    <img src="images/Dashboard1.svg" />
+                    <img src={dashboard1} />
                 </div>
             </div>
 
             <div className="left-border services" data-aos='fade-left'>
                 <div className="gradient-borders">
-                   
+                <img src={dashboard2} />                   
                 </div>
                 <div className="side-contents">
                     <h1 className="bold-title">Set task and accomplish them</h1>
@@ -55,7 +57,6 @@ export default function Services(){
                     every task you accomplish, you score points,
                      likewise you lose points if you miss more than 3 tasks in a day. 
                     </p>
-
                     <button className="btn btn-primary">Talk to Mya</button>
                 </div>
             </div>

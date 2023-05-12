@@ -1,5 +1,6 @@
 import React from 'react'
 import 'aos/dist/aos.css'
+import envelope from '../images/envelope.svg'
 
 export default function Contact(){
     return(
@@ -7,7 +8,7 @@ export default function Contact(){
             <h1>Got more questions?<br />Contact Us</h1>
             <div className='envelope'>
                 <div className='envelope-img'>
-                    <img src='images/envelope.svg' />
+                    <img src={envelope} />
                 </div>
                 <div className='form-content'>
                     <form>

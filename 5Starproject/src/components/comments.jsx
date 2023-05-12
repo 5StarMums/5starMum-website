@@ -1,8 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-
-
+import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import profile from '../images/profile.svg'
+import profile2 from '../images/profile2.svg'
+import profile3 from '../images/profile3.svg'
+import quote from '../images/quote.svg'
 export default function Comments(){
 
     // HANDLING THE SLIDER ICONS
@@ -21,10 +23,10 @@ export default function Comments(){
         <div className='comments-container'>
             <div id='slider' className='comments'>
                 <div className='individual-comments'>
-                    <img src='images/quote.svg' className='quote' />
+                    <img src={quote} className='quote' />
                     <p className='main-comment'>I've had more support in this community than any Facebook group I am on.</p>
                     <div className='comment-details'>
-                        <img src='images/profile.svg' className='profile' />
+                        <img src={profile} className='profile' />
                         <div className='profile-info'>
                             <p className='profile-name'><b>Mary Silva</b></p>
                             <p className='profile-status'>Mother of 3</p>
@@ -33,10 +35,10 @@ export default function Comments(){
                 </div>
 
                 <div className='individual-comments'>
-                    <img src='images/quote.svg' className='quote' />
+                    <img src={quote} className='quote' />
                     <p className='main-comment'>I like it here! The women are so supportive and Mya is always there for me.</p>
                     <div className='comment-details'>
-                        <img src='images/profile2.svg' className='profile' />
+                        <img src={profile2} className='profile' />
                         <div className='profile-info'>
                             <p className='profile-name'><b>Jane Bill</b></p>
                             <p className='profile-status'>Expecting Baby</p>
@@ -45,10 +47,10 @@ export default function Comments(){
                 </div> 
 
                 <div className='individual-comments'>
-                    <img src='images/quote.svg' className='quote' />
+                    <img src={quote}  className='quote' />
                     <p className='main-comment'>After my first postpartum depression, I found this community</p>
                     <div className='comment-details'>
-                        <img src='images/profile3.svg' className='profile' />
+                        <img src={profile3} className='profile' />
                         <div className='profile-info'>
                             <p className='profile-name'><b>Abbi Tessa</b></p>
                             <p className='profile-status'>Mother of 1</p>

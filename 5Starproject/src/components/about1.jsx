@@ -6,7 +6,7 @@ import advantages from '../lists/advantages'
 import reasons from '../lists/reasons'
 import missions from '../lists/missions'
 import 'aos/dist/aos.css'
-
+import beBetter from "../images/be-better.svg";
 export default function About1(){
 
     const advantagesElement = advantages.map(advInfo => {

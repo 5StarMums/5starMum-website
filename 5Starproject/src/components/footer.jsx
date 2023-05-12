@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Email from './email'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import logo from '../images/logo.svg'
 
 export default function Footer(){
 
@@ -21,7 +22,7 @@ export default function Footer(){
         <section id='footer'>
             <div id='footer-content'>
                 <div className='logo'>
-                    <img src='images/logo.svg' />
+                    <img src={logo} />
                 </div>
 
                 <div className='footer-links'>

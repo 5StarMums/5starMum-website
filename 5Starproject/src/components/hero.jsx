@@ -1,6 +1,6 @@
 import React from 'react'
 import Email from './email'
-
+import hero from '../images/hero-image.svg'
 
 export default function Hero(){
     return(
@@ -15,7 +15,7 @@ export default function Hero(){
                 </div>
             </div>
             <div className='right-content'>
-                <img src='images/hero-image.svg' />
+                <img src={hero} />
             </div>
         </section>
     )

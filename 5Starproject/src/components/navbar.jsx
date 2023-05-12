@@ -3,6 +3,7 @@ import { HashLink as NavLink } from 'react-router-hash-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import Fundraising from './fundraising'
+import logo from '../images/logo.svg'
 
 
 
@@ -39,7 +40,7 @@ export default function Navbar(){
     <nav className="navbar" style={{boxShadow: isScrolled ? "0 2px 4px rgba(0, 0, 0, 0.2)" : "none"}}>
       <div className="container nav">
         <div className="logo">
-            <NavLink to="#hero" smooth><img src='images/logo.svg' /></NavLink>
+            <NavLink to="#hero" smooth><img src={logo} /></NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <FontAwesomeIcon icon={showNavbar ? faTimes : faBars}/>

@@ -1,8 +1,11 @@
+ import usergroup from '../images/UserGroup.svg'
+ import piggyBank from '../images/piggy-bank.svg';
+ import vector from '../images/Vector.svg'
  const figures = [
     
     {
         id: 1,
-        numImage: "images/usergroup.svg",
+        numImage: `${usergroup}`,
         numFig: "15k+",
         numTitle: "User",
         numSum: "Our community has gathered over 15,000 satisfied users from around the world.",
@@ -10,7 +13,7 @@
     },
     {
         id: 2,
-        numImage: "images/piggy-bank.svg",
+        numImage: `${piggyBank}`,
         numFig: "4k+",
         numTitle: "Donate",
         numSum:"We have been able to raise $4000 as donation to the community",
@@ -18,7 +21,7 @@
     },
     {
         id: 3,
-        numImage: "images/vector.svg",
+        numImage: `${vector}`,
         numFig: "300+",
         numTitle: "Reviews",
         numSum: "Our product accumulated 300 reviews and counting from customers.",
