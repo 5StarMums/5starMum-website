@@ -3,7 +3,7 @@ import { HashLink as NavLink } from 'react-router-hash-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import Fundraising from './fundraising'
-import logo from '../images/logo.svg'
+import logo from '../images/Logo.svg';
 
 
 
