@@ -1,6 +1,6 @@
-import orange from '../images/orange-mission.svg'
-import mission2 from '../images/mission2.svg'
-import mission3 from '../images/mission3.svg'
+import orange from '../images/orange-mission.webp'
+import mission2 from '../images/mission2.webp'
+import mission3 from '../images/mission3.webp'
 const missions = [
     {
         id: 1,

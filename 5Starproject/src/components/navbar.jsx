@@ -3,7 +3,7 @@ import { HashLink as NavLink } from 'react-router-hash-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import Fundraising from './fundraising'
-import logo from '../images/Logo.svg';
+import logo from '../images/Logo.webp';
 
 
 
@@ -40,7 +40,7 @@ export default function Navbar(){
     <nav className="navbar" style={{boxShadow: isScrolled ? "0 2px 4px rgba(0, 0, 0, 0.2)" : "none"}}>
       <div className="container nav">
         <div className="logo">
-            <NavLink to="#hero" smooth><img src={logo} /></NavLink>
+            <NavLink to="https://www.5starmums.com" smooth><img src={logo} /></NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <FontAwesomeIcon icon={showNavbar ? faTimes : faBars}/>
@@ -51,13 +51,12 @@ export default function Navbar(){
             <li>
               <NavLink to="#donate" smooth>Donate</NavLink>
             </li>
+            <li>
+              <NavLink to="https://www.5starmums.com/Community" smooth>Community</NavLink>
+            </li>
         
             <li>
               <NavLink to="#aboutUs" smooth>About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/pricing" smooth>Pricing</NavLink>
-
             </li>
             <li>
               <NavLink to="#contactUs" smooth>Contact Us</NavLink>
@@ -67,8 +66,8 @@ export default function Navbar(){
           
         </div>
         <div className={`cta nav-elements ${showNavbar}`}>
-            <p className='btn btn-tertiary'>Log in</p>
-            <button className='btn btn-primary'>Sign Up</button>
+            <a href='https://www.5starmums.com/Community' target='_self'  className='btn btn-tertiary'>Log in</a>
+            <a href='https://www.5starmums.com/Community/Register' target='_self' className='btn btn-primary'>Sign Up</a>
         </div>
       </div>
     </nav>

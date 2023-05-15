@@ -11,7 +11,7 @@ export default function Questions(props){
     }
 
     return (
-        <div className='right-content'>
+        <div className='right-content' id='faq'>
             <div className='ques'>
                 <p><b>{props.ques}</b></p>
                 <FontAwesomeIcon icon={dropdown ? faAngleUp : faAngleDown} id='dropdown' onClick={toggle}/>

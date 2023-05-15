@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Email from './email'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import logo from '../images/Logo.svg'
+import logo from '../images/Logo.webp'
 
 export default function Footer(){
 
@@ -27,32 +27,30 @@ export default function Footer(){
 
                 <div className='footer-links'>
                     <ul>
-                        <li><b>Product</b></li>
-                        <li>Features</li>
-                        <li>Login</li>
-                        <li>Sign Up</li>
+                        <a><b>Product</b></a>
+                        <a href='https://www.5starmums.com/Community'>Login</a>
+                        <a href='https://www.5starmums.com/Community/Register'>Sign Up</a>
                     </ul>
 
                     <ul>
-                        <li><b>Company</b></li>
-                        <li>Customer</li>
-                        <li>About Us</li>
-                        <li>Contact</li>
+                        <a><b>Company</b></a>
+                        <a>Customer</a>
+                        <a href='#aboutUs'>About Us</a>
+                        <a href='#contactUs'>Contact</a>
                     </ul>
 
                     <ul>
-                        <li><b>Resources</b></li>
-                        <li>Term of services</li>
-                        <li>Privacy Policy</li>
-                        <li>Legal</li>
-                        <li>FAQs</li>
+                        <a><b>Resources</b></a>
+                        <a>Term of services</a>
+                        <a>Privacy Poacy</a>
+                        <a href='#faq'>FAQs</a>
                     </ul>
 
                     <ul>
-                        <li><b>Follow Us</b></li>
-                        <li>Instagram</li>
-                        <li>LinkedIN</li>
-                        <li>Twitter</li>
+                        <a><b>Follow Us</b></a>
+                        <a href='https://www.instagram.com/5starmums/'>Instagram</a>
+                        <a href='https://www.linkedin.com/company/5starmums/'>LinkedIN</a>
+                        <a href='https://twitter.com/5starmums'>Twitter</a>
                     </ul>
                 </div>
 
@@ -77,8 +75,8 @@ export default function Footer(){
                         <tr>
                             <td>Log In</td>
                             <td>About Us</td>
-                            <td>Privacy Policy</td>
-                            <td>LinkedIn</td>
+                            <td>Privacy Poacy</td>
+                            <td>ankedIn</td>
                         </tr>
 
                         <tr>

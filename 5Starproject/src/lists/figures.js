@@ -1,6 +1,6 @@
- import usergroup from '../images/UserGroup.svg'
- import piggyBank from '../images/piggy-bank.svg';
- import vector from '../images/Vector.svg'
+ import usergroup from '../images/UserGroup.webp'
+ import piggyBank from '../images/piggy-bank.webp';
+ import vector from '../images/Vector.webp'
  const figures = [
     
     {

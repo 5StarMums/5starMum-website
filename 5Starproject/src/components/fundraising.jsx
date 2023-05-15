@@ -1,6 +1,6 @@
 import React from 'react'
 import 'aos/dist/aos.css'
-import fundraising from '../images/fundraising.svg'
+import fundraising from '../images/fundraising.webp'
 
 export default function Fundraising(){
 

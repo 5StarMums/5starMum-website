@@ -16,6 +16,9 @@ nav{
   transition: box-shadow 0.3s  ease-in-out;
 
 }
+.mya-text {
+  color: #EF7528;
+}
 .nav{
   display: flex;
   justify-content: space-between;
@@ -92,7 +95,7 @@ nav{
   align-items: center;
   display: flex;
 }
-.btn:hover{
+.btn-primary:hover{
   background-color: #db6216;
   color: white
 }
@@ -102,6 +105,7 @@ nav{
   padding: 1rem 2rem;
   border-radius: 12px;
   border: none;
+  text-decoration: none;
 }
 
 .btn-secondary{
@@ -114,6 +118,7 @@ nav{
 
 .btn-tertiary{
   color: #EF7528;
+  text-decoration: none;
 }
 
 /* styling for hero section */
@@ -207,6 +212,7 @@ nav{
 .subComponents{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 3rem;
   gap: 2rem;
 }
@@ -227,29 +233,34 @@ nav{
 .about1-subcomponent-title{
   font-weight: bold;
   padding: 0.7rem 0;
+  margin-bottom: -0.5rem;
 }
 .about1-subcomponent-summary{
   padding:  0.5rem 0;
+  margin-top: -1rem;
 }
 .mission{
-  border: 1px solid #374151;
+  border: 1px solid #E3E3E3;
   border-radius: 24px;
+  width: 400px;
 }
 .mission-component{
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
-  gap: 1rem;
+  gap: 1rem; 
 }
 
 .mission img{
   border-top-right-radius: 24px ;
   border-top-left-radius: 24px ;
+  height: 250px;
   width: 100%;
 }
 
 .mission p{
   padding: 1rem;
+  margin-top: -0.5rem;
 }
 
 /* STYLING SERVICE */
@@ -517,6 +528,7 @@ hr{
 #footer-content{
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 
@@ -528,13 +540,21 @@ hr{
   display: flex;
   width: 70%;
   padding-right: 3rem;
+  flex-direction: row;
 }
 
 .footer-links ul{
   margin:  0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.footer-links li{
-  list-style: none;
+.footer-links ul a{
+  text-decoration: none;
+  color: #2f234f;
+}
+a::visited {
+  color: #2f234f;
 }
 .footer-links li:not(:first-child){
   padding: 1rem 0;

@@ -55,9 +55,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <section id='infos' data-aos='fade-up'>
-        {numberElement}
-      </section>
 
       <section id="aboutUs">
         <About1 />

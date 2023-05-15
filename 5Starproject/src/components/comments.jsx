@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import profile from '../images/profile.svg'
-import profile2 from '../images/profile2.svg'
-import profile3 from '../images/profile3.svg'
-import quote from '../images/quote.svg'
+import profile from '../images/profile.webp'
+import profile2 from '../images/profile2.webp'
+import profile3 from '../images/profile3.webp'
+import quote from '../images/quote.webp'
 export default function Comments(){
 
     // HANDLING THE SLIDER ICONS

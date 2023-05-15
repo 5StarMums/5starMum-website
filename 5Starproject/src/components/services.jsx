@@ -2,9 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import 'aos/dist/aos.css'
-import Mya2 from '../images/Mya2.svg'
-import dashboard1 from '../images/Dashboard1.svg'
-import dashboard2 from '../images/Dashboard2.svg'
+import Mya2 from '../images/Mya2.webp'
+import dashboard1 from '../images/Dashboard1.webp'
+import dashboard2 from '../images/Dashboard2.webp'
 export default function Services(){
     return(
         <div id='service-section'>
@@ -19,8 +19,18 @@ export default function Services(){
                         That's why our AI product is designed to 
                         provide expert guidance whenever and wherever you need it.
                     </p>
-
-                    <button className="btn btn-primary">Talk to Mya</button>
+                    <form 
+                        action="https://formsubmit.co/mya@5starmums.com" 
+                        method="POST"
+                    >
+                        <input 
+                            name='email' 
+                            type='email' 
+                            placeholder='Enter your email' 
+                            className='input'
+                        />
+                        <button type='submit' className='btn btn-primary'>Join Waitlist</button>
+                    </form>
                     <button className="btn btn-secondary">Watch Demo</button>
 
                     <div className="advantages">
@@ -39,7 +49,18 @@ export default function Services(){
                     Our cutting-edge technology provides insights 
                     and recommendations to help you raise a happy and healthy baby.
                     </p>
-                    <button className="btn btn-primary">Talk to Mya</button>
+                    <form 
+                        action="https://formsubmit.co/mya@5starmums.com" 
+                        method="POST"
+                    >
+                        <input 
+                            name='email' 
+                            type='email' 
+                            placeholder='Enter your email' 
+                            className='input'
+                        />
+                        <button type='submit' className='btn btn-primary'>Join Waitlist</button>
+                    </form>
                 </div>
                 <div className="gradient-borders">
                     <img src={dashboard1} />
@@ -57,7 +78,18 @@ export default function Services(){
                     every task you accomplish, you score points,
                      likewise you lose points if you miss more than 3 tasks in a day. 
                     </p>
-                    <button className="btn btn-primary">Talk to Mya</button>
+                    <form 
+                        action="https://formsubmit.co/mya@5starmums.com" 
+                        method="POST"
+                    >
+                        <input 
+                            name='email' 
+                            type='email' 
+                            placeholder='Enter your email' 
+                            className='input'
+                        />
+                        <button type='submit' className='btn btn-primary'>Join Waitlist</button>
+                    </form>
                 </div>
             </div>
 

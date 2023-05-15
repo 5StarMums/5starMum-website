@@ -1,6 +1,7 @@
-import beBetter from "../images/be-better.svg";
-import resources from "../images/resources.svg";
-import message2 from '../images/messages-2.svg';
+import beBetter from "../images/be-better.webp";
+import resources from "../images/resources.webp";
+import message2 from '../images/messages-2.webp';
+
 const advantages = [
         {
             id: 1,
@@ -18,7 +19,7 @@ const advantages = [
             id: 3,
             advImage: `${message2}`,
             advTitle: "Get Support",
-            advSum: "With our AI powered, Mya, we provide 24/7 support."
+            advSum: `With our AI powered solution, Mya, we provide 24/7 support.`
         }
         
     ]

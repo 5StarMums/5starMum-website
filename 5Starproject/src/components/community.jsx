@@ -1,6 +1,6 @@
 import React from 'react'
 import 'aos/dist/aos.css'
-import community from '../images/community.svg'
+import community from '../images/community.webp'
 
 export default function Community(){
     return(
