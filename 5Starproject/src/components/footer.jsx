@@ -48,7 +48,7 @@ export default function Footer(){
 
                     <ul>
                         <a><b>Follow Us</b></a>
-                        <a href='https://www.instagram.com/5starmums/'>Instagram</a>
+                        <a href='https://www.instagram.com/5starmums/'> Instagram</a>
                         <a href='https://www.linkedin.com/company/5starmums/'>LinkedIN</a>
                         <a href='https://twitter.com/5starmums'>Twitter</a>
                     </ul>
@@ -102,15 +102,15 @@ export default function Footer(){
                         action="" 
                         method="POST"
                     >
-                        <input 
+                        {/* <input 
                             name='email' 
                             type='email' 
                             placeholder='Enter your email' 
                             className='input'
                             value={email}
                             onChange={handleChange}
-                        />
-                        <button type='submit' onSubmit={handleSubmit} className='btn btn-primary'>Subscribe</button>
+                        /> */}
+                        <a href='https://5starmums.substack.com' onSubmit={handleSubmit} className='btn btn-primary'>Subscribe</a>
                     </form>
                 </div>
 

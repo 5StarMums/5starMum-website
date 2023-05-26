@@ -5,6 +5,8 @@ import App from './App'
 import './index.css'
 import './App.css'
 import Pricing from './pricing/Pricing'
+import Waitlist from './waitlist/waitlist'
+import Contact from './contact/contact'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
   {
     path: 'pricing',
     element: <Pricing />
+  },
+  {
+    path: 'waitlist',
+    element: <Waitlist />
+  },
+  {
+    path: 'contact',
+    element: <Contact />
   }
 ])
 

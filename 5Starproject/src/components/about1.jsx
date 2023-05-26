@@ -48,9 +48,9 @@ export default function About1(){
         <section id='about'>
             <div className='about1 general-about-styling'>
                 <div className='about-header'>
-                    <h1>Don't go through<br /> "mumming" alone</h1>
-                    <p> You don't have to face the difficulties of being a mum all by yourself. Feel free to <br />
-                    request any assistance you require, as we are available to offer whatever support you <br />may need.</p>
+                    <h1>“don’t go through mumming alone”</h1>
+                    <p> You don't have to face the difficulties of being a mum all by yourself. Feel free to request any assistance<br />
+                    you require, as we are available to offer whatever support you may need..</p>
                 </div>
                  <div className='subComponents'  data-aos='fade-up'>
                     {advantagesElement}

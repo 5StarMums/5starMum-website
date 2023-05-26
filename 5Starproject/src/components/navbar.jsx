@@ -70,8 +70,7 @@ export default function Navbar(){
           
         </div>
         <div className={`cta nav-elements ${showNavbar}`}>
-            <a href='https://www.5starmums.com/Community' target='_self'  className='btn btn-tertiary'>Log in</a>
-            <a href='https://www.5starmums.com/Community/register' target='_self' className='btn btn-primary'>Sign Up</a>
+            <a href='https://www.5starmums.com/Community' target='_self' className='btn btn-primary'>Join Community</a>
         </div>
       </div>
     </nav>

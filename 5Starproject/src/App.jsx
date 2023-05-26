@@ -67,7 +67,7 @@ function App() {
       <section id='comment-section' data-aos='fade-up'>
         <div className='comment-header'>
           <h1>Reducing postpartum <br />depression rate by 10%</h1>
-          <p>Don't just hear from us, this is how we've helped several mmothers get married</p>
+          <p>Don’t just hear from us, this is how we’ve helped several mothers get healthy</p>
         </div>
         
         <Comments />

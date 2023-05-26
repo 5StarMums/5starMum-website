@@ -6,7 +6,7 @@ const missions = [
         id: 1,
         msnImage: `${orange}`,
         msnTitle: "Daily Routine",
-        msnSum: "Helping mums develop a daily routine, Our community provides guidance, resources and strategies for maintaining a healthy work balance"
+        msnSum: "Helping mums develop a daily routine. Our community provides guidance, resources and strategies for maintaining a healthy work balance"
     },
     {
         id: 2,

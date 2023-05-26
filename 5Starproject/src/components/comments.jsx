@@ -24,7 +24,7 @@ export default function Comments(){
             <div id='slider' className='comments'>
                 <div className='individual-comments'>
                     <img src={quote} className='quote' />
-                    <p className='main-comment'>I've had more support in this community than any Facebook group I am on.</p>
+                    <p className='main-comment'>I’ve had more support in this community than any Facebook group I am on.</p>
                     <div className='comment-details'>
                         <img src={profile} className='profile' />
                         <div className='profile-info'>
@@ -36,7 +36,7 @@ export default function Comments(){
 
                 <div className='individual-comments'>
                     <img src={quote} className='quote' />
-                    <p className='main-comment'>I like it here! The women are so supportive and Mya is always there for me.</p>
+                    <p className='main-comment'>I like it here! The women are so supportive and Mya is always there for me</p>
                     <div className='comment-details'>
                         <img src={profile2} className='profile' />
                         <div className='profile-info'>
@@ -48,7 +48,7 @@ export default function Comments(){
 
                 <div className='individual-comments'>
                     <img src={quote}  className='quote' />
-                    <p className='main-comment'>After my first postpartum depression, I found this community</p>
+                    <p className='main-comment'>After my first child I had postpartum depression, then I found this community</p>
                     <div className='comment-details'>
                         <img src={profile3} className='profile' />
                         <div className='profile-info'>
