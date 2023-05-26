@@ -11,7 +11,7 @@ export default function Fundraising(){
                 <p className='service-content'>We are hoping to raise $50,000 to help 5StarMums get to the next level 
                 because no mother in our community should lack help. 
                 Please donate today to help us save, support and change lives</p>
-                <button className='btn btn-primary'>Donate</button>
+                <a href='https://flutterwave.com/donate/ghcmyszetbol' className='btn btn-primary'>Donate</a>
             </div>
             <div className='right-content image'>
                 <img src={fundraising} />
