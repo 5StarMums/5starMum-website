@@ -578,12 +578,86 @@ tbody tr:not(:last-child){
   margin: 6rem 0 0 0;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 850px) { 
+  nav{
+    padding: 1rem 6rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    transition: box-shadow 0.3s  ease-in-out;
+  
+  }
+  .mya-text {
+    color: #EF7528;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+    background-color: #ffffff;
+   
+  }  
 
+  .nav-elements ul {
+ 
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  .nav-elements ul a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #2f234f;
+    text-decoration: none;
+  }
+  
+  
+  .cta{
+    gap: 2rem;
+    align-items: center;
+    display: flex;
+  }
+  .btn-primary:hover{
+    background-color: #db6216;
+    color: white
+  }
+  .btn-primary{
+    background-color: #EF7528;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .btn-secondary{
+    border: 1px solid #EF7528;
+    color: #EF7528;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background-color: white;
+  }
+  
+  .btn-tertiary{
+    background-color: #EF7528;
+    color: white;
+    display: none;
+    border-radius: 12px;
+    border: none;
+    text-decoration: none;
+  }
+}
 
   
 
 /* Ib addition */
- @media screen and (max-width: 650px) and (min-width: 320px) {
+ @media screen and (max-width: 850px) and (min-width: 320px) {
   body {
     padding: 0;
     margin: 0;

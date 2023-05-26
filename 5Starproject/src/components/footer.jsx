@@ -29,7 +29,7 @@ export default function Footer(){
                     <ul>
                         <a><b>Product</b></a>
                         <a href='https://www.5starmums.com/Community'>Login</a>
-                        <a href='https://www.5starmums.com/Community/Register'>Sign Up</a>
+                        <a href='https://www.5starmums.com/Community/register'>Sign Up</a>
                     </ul>
 
                     <ul>
@@ -99,7 +99,7 @@ export default function Footer(){
                     <h1>Subscribe</h1>
                     <p>Join our newsletter to stay up to date on features and releases.</p>
                     <form 
-                        action="https://formsubmit.co/azeezhazeezah010@gmail.com" 
+                        action="" 
                         method="POST"
                     >
                         <input 

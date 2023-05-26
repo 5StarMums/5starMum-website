@@ -54,6 +54,10 @@ export default function Navbar(){
             <li>
               <NavLink to="https://www.5starmums.com/Community" smooth>Community</NavLink>
             </li>
+
+            <li>
+              <NavLink to="pricing" smooth>Pricing</NavLink>
+            </li>
         
             <li>
               <NavLink to="#aboutUs" smooth>About</NavLink>
@@ -67,7 +71,7 @@ export default function Navbar(){
         </div>
         <div className={`cta nav-elements ${showNavbar}`}>
             <a href='https://www.5starmums.com/Community' target='_self'  className='btn btn-tertiary'>Log in</a>
-            <a href='https://www.5starmums.com/Community/Register' target='_self' className='btn btn-primary'>Sign Up</a>
+            <a href='https://www.5starmums.com/Community/register' target='_self' className='btn btn-primary'>Sign Up</a>
         </div>
       </div>
     </nav>
