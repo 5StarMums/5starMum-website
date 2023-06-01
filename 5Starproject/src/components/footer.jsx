@@ -34,15 +34,15 @@ export default function Footer(){
 
                     <ul>
                         <a><b>Company</b></a>
-                        <a>Customer</a>
                         <a href='#aboutUs'>About Us</a>
                         <a href='#contactUs'>Contact</a>
+                        <a href='pricing'>Pricing</a>
                     </ul>
 
                     <ul>
                         <a><b>Resources</b></a>
-                        <a>Term of services</a>
-                        <a>Privacy Poacy</a>
+                        <a>Terms of service</a>
+                        <a href='privacy-policy'>Privacy Policy</a>
                         <a href='#faq'>FAQs</a>
                     </ul>
 

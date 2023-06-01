@@ -48,6 +48,10 @@ export default function Navbar(){
         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
+          <li>
+              <NavLink to="#aboutUs" smooth>About</NavLink>
+            </li>
+            
             <li>
               <NavLink to="#donate" smooth>Donate</NavLink>
             </li>
@@ -58,10 +62,7 @@ export default function Navbar(){
             <li>
               <NavLink to="pricing" smooth>Pricing</NavLink>
             </li>
-        
-            <li>
-              <NavLink to="#aboutUs" smooth>About</NavLink>
-            </li>
+
             <li>
               <NavLink to="#contactUs" smooth>Contact Us</NavLink>
             </li>

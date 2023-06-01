@@ -7,7 +7,7 @@ export default function Hero(){
         <section id='hero'>
             <div className='left-content'>
                 <p className='company-name'>5StarMums</p>
-                <h1>The <span className='blue'>unique postpartum solution</span> to the problems <br />women face</h1>
+                <h1>The <span className='blue'>unique postpartum solution</span> to problems <br />women face</h1>
                 <p className='sub-topic'>Join our community and find support on your journey to <br />
                 motherhood. Together, we can overcome postpartum stress!</p>
                 <div className='form'>

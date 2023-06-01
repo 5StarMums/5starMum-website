@@ -2,12 +2,12 @@ import Styled, { createGlobalStyle } from 'styled-components';
 import GlobalFont from './font';
 
 
-const rowDisplay = `
+export const rowDisplay = `
     display: flex;
     flex-direction: row;
 `
 
-const colDisplay = `
+export const colDisplay = `
     display: flex;
     flex-direction: column;
 `

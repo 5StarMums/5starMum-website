@@ -7,6 +7,7 @@ import './App.css'
 import Pricing from './pricing/Pricing'
 import Waitlist from './waitlist/waitlist'
 import Contact from './contact/contact'
+import Privacy from './privacy/privacy-policy'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: 'contact',
     element: <Contact />
+  },
+  {
+    path: 'privacy-policy',
+    element: <Privacy />
   }
 ])
 
