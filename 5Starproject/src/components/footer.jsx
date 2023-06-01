@@ -41,8 +41,8 @@ export default function Footer(){
 
                     <ul>
                         <a><b>Resources</b></a>
-                        <a>Terms of service</a>
-                        <a href='privacy-policy'>Privacy Policy</a>
+                        <a href='terms-and-conditions'>Terms of service</a>
+                        <a href='https://drive.google.com/file/d/1UJAFGYb32ReM5BnJ0U6FpidNhyKZEn1z/view?usp=sharing'>Privacy Policy</a>
                         <a href='#faq'>FAQs</a>
                     </ul>
 
