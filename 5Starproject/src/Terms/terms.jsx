@@ -1,7 +1,7 @@
 import React from 'react'
-import text from './privacy-text'
+import text from './term-text'
 import Navbar from '../components/navbar'
-import Styledprivacy from './StyledPrivacy'
+import Styledprivacy from './Styledterms'
 
 function Privacy() {
     return (

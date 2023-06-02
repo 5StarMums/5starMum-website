@@ -7,7 +7,7 @@ import './App.css'
 import Pricing from './pricing/Pricing'
 import Waitlist from './waitlist/waitlist'
 import Contact from './contact/contact'
-import Privacy from './Terms/privacy-policy'
+import Privacy from './Terms/terms'
 
 const router = createBrowserRouter([
   {

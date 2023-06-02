@@ -3,6 +3,7 @@ import Email from './email'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '../images/Logo.webp'
+import Styledfooter from '../Styles/Styledfooter'
 
 export default function Footer(){
 
@@ -19,6 +20,7 @@ export default function Footer(){
     }
 
     return(
+        <Styledfooter>
         <section id='footer'>
             <div id='footer-content'>
                 <div className='logo'>
@@ -26,6 +28,7 @@ export default function Footer(){
                 </div>
 
                 <div className='footer-links'>
+                <div className='link1'>
                     <ul>
                         <a><b>Product</b></a>
                         <a href='https://www.5starmums.com/Community'>Login</a>
@@ -38,7 +41,8 @@ export default function Footer(){
                         <a href='#contactUs'>Contact</a>
                         <a href='pricing'>Pricing</a>
                     </ul>
-
+                </div>
+                <div className='link1'>
                     <ul>
                         <a><b>Resources</b></a>
                         <a href='terms-and-conditions'>Terms of service</a>
@@ -52,6 +56,7 @@ export default function Footer(){
                         <a href='https://www.linkedin.com/company/5starmums/'>LinkedIN</a>
                         <a href='https://twitter.com/5starmums'>Twitter</a>
                     </ul>
+                </div>
                 </div>
 
                 {/* <table className='table'>
@@ -118,5 +123,6 @@ export default function Footer(){
             
             <p className='copyright'><FontAwesomeIcon icon={faCopyright} /> 2023 5StarMums. All right reserved</p>
         </section>
+        </Styledfooter>
     )
 }

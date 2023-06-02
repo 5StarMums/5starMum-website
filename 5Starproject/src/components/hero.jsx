@@ -1,9 +1,11 @@
 import React from 'react'
 import Email from './email'
 import hero from '../images/hero-image.webp'
+import StyledHero from '../Styles/Styledhero'
 
 export default function Hero(){
     return(
+        <StyledHero>
         <section id='hero'>
             <div className='left-content'>
                 <p className='company-name'>5StarMums</p>
@@ -18,5 +20,6 @@ export default function Hero(){
                 <img src={hero} />
             </div>
         </section>
+        </StyledHero>
     )
 }

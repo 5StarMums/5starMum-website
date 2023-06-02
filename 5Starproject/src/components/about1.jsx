@@ -68,9 +68,9 @@ export default function About1(){
                 <div className='about-header'>
                     <h1>Our Mission</h1>
                 </div>
-                <div className='mission-component' data-aos='fade-up'>
+                {/* <div className='mission-component' data-aos='fade-up'>
                     {missionsElement}
-                </div>
+                </div> */}
             </div>
         </section>
     )
