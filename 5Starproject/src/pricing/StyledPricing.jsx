@@ -64,7 +64,7 @@ const StyledPricing = Styled.section `
                     .plans {
                         ${colDisplay};
                         align-items: center;
-                        h4 {
+                        h4 { 
                             font-size: 36px;
                             font-wieght: 400;
                             color: #1E1E1E; 
@@ -72,6 +72,15 @@ const StyledPricing = Styled.section `
                             ${({ theme }) => GlobalFont};
                             font-family: 'BromnyBold', sans-serif;        
                         }
+                        .dur {
+                            font-size: 15px;
+                            font-wieght: 400;
+                            color: #1E1E1E; 
+                            margin-bottom: -10px;      
+                            ${({ theme }) => GlobalFont};
+                            font-family: 'BromnyBold', sans-serif; 
+                        }
+                        
                         p {
                             font-size: 18px;
                             font-wieght: 400;
@@ -135,6 +144,14 @@ const StyledPricing = Styled.section `
                             margin-bottom: -10px;      
                             ${({ theme }) => GlobalFont};
                             font-family: 'BromnyBold', sans-serif;        
+                        }
+                        .dur {
+                            font-size: 15px;
+                            font-wieght: 400;
+                            color: ${fontPryColor};
+                            margin-bottom: -10px;      
+                            ${({ theme }) => GlobalFont};
+                            font-family: 'BromnyBold', sans-serif; 
                         }
                         p {
                             font-size: 18px;

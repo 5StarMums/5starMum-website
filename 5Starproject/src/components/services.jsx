@@ -38,9 +38,9 @@ export default function Services(){
             </div>
             <div className="left-border services" data-aos='fade-left'>
                 <div className="gradient-borders">  <img src={Mya2} /> </div>
-                <div className="side-contents">
+                <div className="side-contents sided">
                     <p className="service-title">Introducing <span className="orange">Mya</span></p>
-                    <h1 className="bold-title"><span className="blue">Smart </span>Childcare at your <span className="blue">fingertips</span></h1>
+                    <h1 className="bold-title var"><span className="blue">Smart </span>Childcare at your <span className="blue">fingertips</span></h1>
                     <p className="service-content">
                     We understand that being a parent is a full-time job, and you don't always have the luxury of sitting down with an expert for advice. That's why our AI product is designed to provide expert guidance whenever and wherever you need it.
                     </p>
@@ -58,7 +58,7 @@ export default function Services(){
                         <input type="hidden" name="_captcha" value="false"></input>
                         <button type='submit' className='btn btn-primary'>Join Waitlist</button>
                     </form>
-                    <button className="btn btn-secondary">Watch Demo</button>
+                    <a href="https://youtu.be/237vAsrlnJY" className="btn btn-secondary btn-link">Watch Demo</a>
 
                     <div className="advantages">
                         <p><FontAwesomeIcon icon={faClock} className="clock-icon"/> Free to use</p>

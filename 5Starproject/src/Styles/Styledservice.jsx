@@ -26,11 +26,18 @@ const StyledService = Styled.section`
                 }
             }
         }
+        a {
+            text-decoration: none;
+        }
         .btn-secondary {
             width: 50vw;
         }
         }
     }
-    
+    @media (max-width: 1050px) and (min-width: 850px) {
+        .var {
+            font-size: 25px;
+        }
+    }    
 `
 export default StyledService

@@ -309,6 +309,11 @@ nav{
   line-height: 30px;
   
 }
+.sided {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 #service-section button{
   margin: 0.5rem 0;
@@ -457,6 +462,11 @@ nav{
 }
 #questions .right-content:not(:last-child){
   margin-bottom: 1rem;
+}
+
+.btn-link {
+  text-decoration: none;
+  width: 100px;
 }
 
 .ques{

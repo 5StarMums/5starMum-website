@@ -53,7 +53,7 @@ export default function Footer(){
                     <ul>
                         <a><b>Follow Us</b></a>
                         <a href='https://www.instagram.com/5starmums/'> Instagram</a>
-                        <a href='https://www.linkedin.com/company/5starmums/'>LinkedIN</a>
+                        <a href='https://www.linkedin.com/company/5starmums/'>Linkedin</a>
                         <a href='https://twitter.com/5starmums'>Twitter</a>
                     </ul>
                 </div>

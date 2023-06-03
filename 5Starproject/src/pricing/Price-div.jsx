@@ -12,7 +12,7 @@ function PriceDiv(props) {
             <p>{props.planUsers}</p>
           </div>
           <div className='plans'>
-            <h4>{props.planPrice}</h4>
+            <h4>{props.planPrice}/<span className='dur'>{props.planDuration}</span></h4>
           </div>
           <div className='plans2'>
             <p><FontAwesomeIcon icon={faCheckCircle} /> {props.planFeatures}</p>

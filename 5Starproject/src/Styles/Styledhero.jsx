@@ -9,15 +9,20 @@ const StyledHero = Styled.section `
         margin-top: 50px;
         .left-content {
             ${colDisplay};
-            // padding-left: 15px;
+            p {
+                font-weight: 700;
+            }
             h1 {
                 width: 90vw;
                 font-size: 30px;
+                margin-top: 8px;
+                margin-bottom: 10px;
             }
             .sub-topic {
                 text-align: left;
                 width: 90vw;
                 font-size: 14px;
+                font-weight: 400;
             }
             .form {
                 margin-top: 30px;
