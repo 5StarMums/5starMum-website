@@ -2,7 +2,7 @@ import React from 'react'
 import 'aos/dist/aos.css'
 import envelope from '../images/envelope.webp';
 import { useState, useRef } from 'react';
-
+import Styledcontact from '../Styles/Styledcontact';
 export default function Contact(){
     const [contactResponse, setResponse] = useState(true)
     const mailRef = useRef();
@@ -16,6 +16,7 @@ export default function Contact(){
         messageRef.current.value = '';
     }
     return(
+        <Styledcontact>
         <section id='subscribe' data-aos='fade-up'>
             <h1>Got more questions?<br />Contact Us</h1>
             <div className='envelope'>
@@ -38,5 +39,6 @@ export default function Contact(){
                 </div>
             </div>
         </section>
+        </Styledcontact>
     )
 }

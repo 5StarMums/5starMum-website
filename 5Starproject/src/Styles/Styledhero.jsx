@@ -9,13 +9,15 @@ const StyledHero = Styled.section `
         margin-top: 50px;
         .left-content {
             ${colDisplay};
-            padding-left: 15px;
+            // padding-left: 15px;
             h1 {
-                width: 94vw;
+                width: 90vw;
                 font-size: 30px;
             }
             .sub-topic {
+                text-align: left;
                 width: 90vw;
+                font-size: 14px;
             }
             .form {
                 margin-top: 30px;
@@ -26,10 +28,49 @@ const StyledHero = Styled.section `
         }
         .right-content {
             img {
-                width: 100vw;
+                width: 290px;
+                height: 456px;
+                @media (max-width: 850px) and (min-width: 600px) {
+                    width: 500px;
+                }
             }
         }
     }
     }
+    @media screen and (max-width: 1050px) and (min-width: 851px) {
+    #hero {
+        padding: 0;
+        margin: 0;
+        ${rowDisplay};
+        justify-content: space-around;
+        margin-top: 120px;
+        .left-content {
+            ${colDisplay};
+            // padding-left: 15px;
+            h1 {
+                width: 300px;
+                font-size: 25px;
+            }
+            .sub-topic {
+                text-align: left;
+                width: 350px;
+                font-size: 16px;
+            }
+            .form {
+                margin-top: 30px;
+                justify-content: center;
+                align-self: flex-start;
+                margin-bottom: 35px;
+                
+            }
+        }
+        .right-content {
+            img {
+                width: 290px;
+                height: 456px;
+            }
+        }
+    }
+}
 `
 export default StyledHero

@@ -1,10 +1,11 @@
 import React from 'react'
 import 'aos/dist/aos.css'
 import fundraising from '../images/fundraising.webp'
-
+import Styledfundraise from '../Styles/StyledfundRaise'
 export default function Fundraising(){
 
     return(
+        <Styledfundraise>
         <section id='fundraising' data-aos='fade-up'>
             <div className='left-content'>
                 <h1 className='bold-title'>Fundraise for a great cause</h1>
@@ -15,5 +16,6 @@ export default function Fundraising(){
                 <img src={fundraising} />
             </div>
         </section>
+        </Styledfundraise>
     )
 }

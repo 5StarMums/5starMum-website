@@ -2,6 +2,16 @@ import Styled from 'styled-components';
 import { colDisplay, rowDisplay } from '../pricing/StyledPricing';
 
 const Styledfooter = Styled.section `
+#footer {
+    #footer-content {
+        .join {
+            p {
+                margin-bottom: 1.8rem;
+            }
+        }
+    }
+}
+    @media (max-width: 850px) {
     #footer {
         #footer-content {
             display: flex;
@@ -45,6 +55,39 @@ const Styledfooter = Styled.section `
             }
             .copyright {
                 order: 4;
+            }
+        }
+    }
+    }
+    @media (max-width: 1050px) and (min-width: 800px) {
+        #footer {
+            #footer-content {
+                ${colDisplay};
+                align-items: center;
+                .logo {
+                    align-self: flex-start;
+                }
+                .join {
+                    align-self: flex-start;
+                    p {
+                        margin-bottom: 40px;
+                    }
+                }
+                .footer-links {
+                    ${rowDisplay};
+                    justify-content: center;
+                    margin-top: 2rem;
+                    gap: 2rem;
+                .link1 {
+                    ${rowDisplay};
+                    gap: 3rem;
+                    ul {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
             }
         }
     }

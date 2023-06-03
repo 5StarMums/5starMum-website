@@ -10,7 +10,7 @@ export default function Hero(){
             <div className='left-content'>
                 <p className='company-name'>5StarMums</p>
                 <h1>The <span className='blue'>unique postpartum solution</span> to problems <br />women face</h1>
-                <p className='sub-topic'>Join our community and find support on your journey to <br />
+                <p className='sub-topic'>Join our community and find support on your journey to
                 motherhood. Together, we can overcome postpartum stress!</p>
                 <div className='form'>
                 <a href='https://www.5starmums.com/Community' target='_self' className='btn btn-primary'>Join Community</a>

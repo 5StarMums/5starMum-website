@@ -5,8 +5,10 @@ import 'aos/dist/aos.css'
 import Mya2 from '../images/Mya2.webp'
 import dashboard1 from '../images/Dashboard1.webp'
 import dashboard2 from '../images/Dashboard2.webp'
+import StyledService from "../Styles/Styledservice";
 export default function Services(){
     return(
+        <StyledService>
         <div id='service-section'>
 
 <div className="right-border services" data-aos='fade-right'>
@@ -93,5 +95,6 @@ export default function Services(){
             </div>
 
         </div>
+        </StyledService>
     )
 }

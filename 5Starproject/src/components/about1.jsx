@@ -6,6 +6,7 @@ import advantages from '../lists/advantages'
 import reasons from '../lists/reasons'
 import missions from '../lists/missions'
 import 'aos/dist/aos.css'
+import Styledmission from '../Styles/Styledmission'
 export default function About1(){
 
     const advantagesElement = advantages.map(advInfo => {
@@ -64,14 +65,18 @@ export default function About1(){
                     {reasonElement}
                 </div>
             </div>
+            <Styledmission>
             <div className='about3 general-about-styling'>
                 <div className='about-header'>
                     <h1>Our Mission</h1>
                 </div>
-                {/* <div className='mission-component' data-aos='fade-up'>
+               
+                <div className='mission-component' data-aos='fade-up'>
                     {missionsElement}
-                </div> */}
+                </div>
+                
             </div>
+            </Styledmission>
         </section>
     )
 }
