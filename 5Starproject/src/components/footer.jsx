@@ -4,6 +4,7 @@ import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '../images/Logo.webp'
 import Styledfooter from '../Styles/Styledfooter'
+import { HashLink as NavLink } from 'react-router-hash-link'
 
 export default function Footer(){
 
@@ -45,7 +46,8 @@ export default function Footer(){
                 <div className='link1'>
                     <ul>
                         <a><b>Resources</b></a>
-                        <a href='/terms'>Terms of service</a>
+                        {/* <a href='terms'>Terms of service</a> */}
+                        <NavLink to="terms" >Terms of service</NavLink>
                         <a href='https://drive.google.com/file/d/1UJAFGYb32ReM5BnJ0U6FpidNhyKZEn1z/view?usp=sharing'>Privacy Policy</a>
                         <a href='#faq'>FAQs</a>
                     </ul>
