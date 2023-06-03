@@ -45,7 +45,7 @@ export default function Footer(){
                 <div className='link1'>
                     <ul>
                         <a><b>Resources</b></a>
-                        <a href='terms'>Terms of service</a>
+                        <a href='/terms'>Terms of service</a>
                         <a href='https://drive.google.com/file/d/1UJAFGYb32ReM5BnJ0U6FpidNhyKZEn1z/view?usp=sharing'>Privacy Policy</a>
                         <a href='#faq'>FAQs</a>
                     </ul>
