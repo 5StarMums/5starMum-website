@@ -15,10 +15,6 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: 'pricing',
-    element: <Pricing />
-  },
-  {
     path: 'waitlist',
     element: <Waitlist />
   },

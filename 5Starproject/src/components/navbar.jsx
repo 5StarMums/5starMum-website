@@ -40,7 +40,7 @@ export default function Navbar(){
     <nav className="navbar" style={{boxShadow: isScrolled ? "0 2px 4px rgba(0, 0, 0, 0.2)" : "none"}}>
       <div className="container nav">
         <div className="logo">
-            <NavLink to="https://www.5starmums.com" smooth><img src={logo} /></NavLink>
+            <NavLink to="/" smooth><img src={logo} /></NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <FontAwesomeIcon icon={showNavbar ? faTimes : faBars}/>
@@ -56,11 +56,11 @@ export default function Navbar(){
               <NavLink to="#donate" smooth>Donate</NavLink>
             </li>
             <li>
-              <NavLink to="https://www.5starmums.com/Community" smooth>Community</NavLink>
+              <NavLink to="https://5starmums.com/register/" smooth>Community</NavLink>
             </li>
 
             <li>
-              <NavLink to="pricing" smooth>Pricing</NavLink>
+              <NavLink to="#pricing" smooth>Pricing</NavLink>
             </li>
 
             <li>
@@ -71,7 +71,7 @@ export default function Navbar(){
           
         </div>
         <div className={`cta nav-elements ${showNavbar}`}>
-            <a href='https://www.5starmums.com/Community' target='_self' className='btn btn-primary'>Join Community</a>
+            <a href='https://5starmums.com/register/' target='_self' className='btn btn-primary'>Join Community</a>
         </div>
       </div>
     </nav>

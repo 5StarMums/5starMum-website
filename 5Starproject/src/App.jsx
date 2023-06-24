@@ -11,6 +11,7 @@ import Contact from './components/contactUs'
 import Footer from './components/footer'
 import Questions from './components/questions'
 import questions from './lists/questions'
+import Pricing from './pricing/Pricing'
 import './App.css'
 import "./fonts/BromnyRegular.ttf"
 import AOS from 'aos'
@@ -79,6 +80,7 @@ function App() {
       </section>
       
       <Community />
+      <Pricing />
 
       <section id='questions'>
         <h1>Frequently asked questions</h1>

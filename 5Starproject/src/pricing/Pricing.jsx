@@ -5,10 +5,8 @@ import StyledPricing from './StyledPricing';
 
 function Pricing() {
   return (
-        <>
-        <Navbar />
         <StyledPricing>
-        <section className='pricing-section'>
+        <section className='pricing-section' id='pricing'>
             <div className='price-text'>
                 <h1>“don’t go through mumming alone”</h1>
                 <p>Unlock advanced features with Premium, or continue with a free plan.</p>
@@ -39,7 +37,6 @@ function Pricing() {
             </div> 
         </section>
         </StyledPricing>
-        </>
   )
 }
 

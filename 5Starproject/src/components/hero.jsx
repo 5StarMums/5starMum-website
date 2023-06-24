@@ -13,7 +13,7 @@ export default function Hero(){
                 <p className='sub-topic'>Join our community and find support on your journey to
                 motherhood. Together, we can overcome postpartum stress!</p>
                 <div className='form'>
-                <a href='https://www.5starmums.com/Community' target='_self' className='btn btn-primary'>Join Community</a>
+                <a href='https://5starmums.com/register/' target='_self' className='btn btn-primary'>Join Community</a>
                 </div>
             </div>
             <div className='right-content'>
