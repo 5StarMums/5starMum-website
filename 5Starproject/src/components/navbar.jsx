@@ -56,7 +56,7 @@ export default function Navbar(){
               <NavLink to="#donate" smooth>Donate</NavLink>
             </li>
             <li>
-              <NavLink to="https://5starmums.com/register/" smooth>Community</NavLink>
+              <NavLink to="https://5starmums.com/groups" smooth>Community</NavLink>
             </li>
 
             <li>
