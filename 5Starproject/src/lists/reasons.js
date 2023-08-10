@@ -1,6 +1,6 @@
-import pregnancy from '../images/pregnancy.webp';
-import nursing from '../images/nursing.webp'
-import elderly from '../images/elderly.webp'
+import pregnancy from '../images/pregnancy.jpg';
+import nursing from '../images/nursing.jpg'
+import elderly from '../images/elderly.jpg'
 const reasons = [
     {
         id: 1,

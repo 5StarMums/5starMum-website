@@ -119,7 +119,6 @@ export default function Footer(){
                         <a href='https://5starmums.substack.com' onSubmit={handleSubmit} className='btn btn-primary'>Subscribe</a>
                     </form>
                 </div>
-
             </div>
             
             <p className='copyright'><FontAwesomeIcon icon={faCopyright} /> 2023 5StarMums. All rights reserved</p>

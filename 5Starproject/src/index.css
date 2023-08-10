@@ -138,6 +138,12 @@ nav{
   font-size: 3.25rem;
   font-weight: bolder;
 }
+.hero-img {
+  width: 450px; 
+  height: 450px; 
+  margin-top: 20px;
+  border-radius: 50px
+}
 
 .blue{
   color: #437C90;
@@ -216,6 +222,11 @@ nav{
   margin-top: 3rem;
   gap: 2rem;
 }
+.subComponents2 img {
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+}
 
 .about1-subcomponent{
   text-align: center;
@@ -228,7 +239,6 @@ nav{
   background-color: #F49F69;
   padding: 1rem;
   border-radius: 500rem;
-
 }
 .about1-subcomponent-title{
   font-weight: bold;
@@ -714,6 +724,7 @@ tbody tr:not(:last-child){
     font-size: 2rem;
     font-weight: bolder;
   }
+
   #hero .right-content{
     
     margin: 0;
@@ -725,7 +736,7 @@ tbody tr:not(:last-child){
   }
 
   #hero .right-content img{
-    width: 70vw;
+    width: 80vw;
     height: 70vh;
   }
   .input{

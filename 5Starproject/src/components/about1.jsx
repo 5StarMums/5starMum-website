@@ -61,7 +61,7 @@ export default function About1(){
                 <div className='about-header'>
                     <h1>Platform built for</h1>
                 </div>
-                <div className='subComponents' data-aos='fade-up'>
+                <div className='subComponents2 subComponents' data-aos='fade-up'>
                     {reasonElement}
                 </div>
             </div>
