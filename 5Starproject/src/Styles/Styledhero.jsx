@@ -33,10 +33,10 @@ const StyledHero = Styled.section `
         }
         .right-content {
             img {
-                width: 290px;
-                height: 456px;
+                width: 362px;
+                height: 380px;
                 @media (max-width: 850px) and (min-width: 600px) {
-                    width: 500px;
+                    
                 }
             }
         }
@@ -69,12 +69,12 @@ const StyledHero = Styled.section `
                 
             }
         }
-        .right-content {
+        /* .right-content {
             img {
                 width: 290px;
                 height: 456px;
             }
-        }
+        } */
     }
 }
 `
